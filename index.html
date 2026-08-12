@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โตเทยยมาณพปุจฉา - โสฬสปัญหา</title>
+    <!-- นำเข้า Google Fonts: Pridi (สำหรับหัวข้อ) และ Sarabun (สำหรับเนื้อหา) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@400;600&family=Sarabun:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #5D4037; /* สีน้ำตาลเข้ม ให้อารมณ์สงบและมั่นคง */
+            --accent-color: #D4AF37;  /* สีทองหม่น เพิ่มความสง่างาม */
+            --bg-color: #F9F7F1;      /* สีพื้นหลังครีมอ่อน สบายตาคล้ายกระดาษถนอมสายตา */
+            --text-main: #333333;
+            --text-muted: #666666;
+            --card-bg: #FFFFFF;
+        }
+
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            margin: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-family: 'Pridi', serif;
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            border-bottom: 2px solid var(--accent-color);
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 35px 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+            border-top: 4px solid var(--accent-color);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-2px);
+        }
+
+        h2 {
+            font-family: 'Pridi', serif;
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 25px;
+            border-bottom: 1px dashed #E0E0E0;
+            padding-bottom: 15px;
+        }
+
+        .dialogue {
+            margin-bottom: 25px;
+        }
+
+        .speaker {
+            font-family: 'Pridi', serif;
+            font-weight: 600;
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .speech {
+            background-color: #FCF9F2;
+            padding: 18px 25px;
+            border-left: 4px solid var(--primary-color);
+            border-radius: 0 8px 8px 0;
+            margin: 0;
+            font-style: italic;
+            color: #4A4A4A;
+            font-size: 1.05rem;
+        }
+
+        .explanation {
+            background-color: #F4F8F9;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 35px;
+            font-size: 1rem;
+            border: 1px solid #E1ECEE;
+        }
+
+        .explanation strong {
+            color: #2C3E50;
+            font-family: 'Pridi', serif;
+            font-size: 1.15rem;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .quote {
+            text-align: center;
+            font-family: 'Pridi', serif;
+            font-size: 1.35rem;
+            color: var(--primary-color);
+            margin-top: 60px;
+            margin-bottom: 40px;
+            font-style: italic;
+            line-height: 1.6;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            section {
+                padding: 25px 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>โตเทยยมาณพปุจฉา</h1>
+            <p>จาก โสฬสปัญหา ปารายนวรรค สุตตนิบาต ขุททกนิกาย พระสุตตันตปิฎก</p>
+        </header>
+
+        <section>
+            <h2>๑. ความหลุดพ้นที่แท้จริง</h2>
+            
+            <div class="dialogue">
+                <span class="speaker">โตเทยยมาณพ :</span>
+                <p class="speech">"กามทั้งหลาย ย่อมไม่มีแก่ผู้ใด ตัณหาของผู้ใดไม่มี และผู้ใดข้ามความสงสัยได้แล้ว ความพ้นกิเลสของผู้นั้น เป็นเช่นไร พระเจ้าข้า?"</p>
+            </div>
+            
+            <div class="dialogue">
+                <span class="speaker">พระพุทธเจ้า :</span>
+                <p class="speech">"ดูก่อนโตเทยยะ กามทั้งหลาย ย่อมไม่มีแก่ผู้ใด ตัณหาของผู้ใดไม่มี และผู้ใดข้ามความสงสัยได้แล้ว ความพ้นกิเลสของผู้นั้น ไม่ใช่อื่น (คือเป็นความหลุดพ้นที่สมบูรณ์ ไม่มีสภาวะอื่นยิ่งกว่า)"</p>
+            </div>
+            
+            <div class="explanation">
+                <strong>อรรถาธิบาย:</strong> 
+                โตเทยยมาณพทูลถามถึงสภาวะจิตของผู้ที่ปราศจากกามคุณ ไม่มีความทะยานอยาก (ตัณหา) และหมดสิ้นซึ่งความลังเลสงสัย (วิจิกิจฉา) ว่าความหลุดพ้นของบุคคลเช่นนั้นมีลักษณะอย่างไร พระพุทธองค์ทรงตอบสั้นๆ แต่ลึกซึ้งว่า ความหลุดพ้นนั้น <em>"ไม่ใช่อื่น"</em> หมายความว่า สภาวะนั้นคือที่สุดแล้ว สมบูรณ์ในตัวเอง เป็นพระนิพพานที่เที่ยงแท้ ไม่มีความหลุดพ้นอื่นใดที่ยิ่งไปกว่านี้ หรือต้องแสวงหาอะไรเพิ่มเติมอีกต่อไป
+            </div>
+        </section>
+
+        <section>
+            <h2>๒. ลักษณะของมุนีผู้ไร้กังวล</h2>
+            
+            <div class="dialogue">
+                <span class="speaker">โตเทยยมาณพ :</span>
+                <p class="speech">"ผู้นั้นมีความหวัง หรือว่าเป็นผู้ไม่มีความหวัง? ผู้นั้นมีปัญญา หรือว่าเป็นเพียงผู้ดับทิฏฐิด้วยปัญญา? ข้าแต่พระผู้มีพระภาค ข้าพระองค์จะรู้จักมุนีนั้นได้อย่างไร ขอพระองค์จงตรัสบอกแก่ข้าพระองค์ด้วยเถิด"</p>
+            </div>
+            
+            <div class="dialogue">
+                <span class="speaker">พระพุทธเจ้า :</span>
+                <p class="speech">"ผู้นั้นเป็นผู้ไม่มีความหวัง จะว่าเป็นผู้มีความหวังก็ไม่ใช่ ผู้นั้นเป็นผู้มีปัญญา ไม่ใช่เพียงดับทิฏฐิด้วยปัญญา ดูก่อนโตเทยยะ ท่านจงรู้จักมุนี ผู้ไม่มีกิเลสเครื่องกังวล ไม่ติดข้องอยู่ในกามและภพ อย่างนี้เถิด"</p>
+            </div>
+            
+            <div class="explanation">
+                <strong>อรรถาธิบาย:</strong> 
+                ผู้ที่หลุดพ้นแล้วย่อม <em>"ไม่มีความหวัง"</em> เพราะความหวัง (อาสา) เกิดจากจิตที่ยังรู้สึกพร่องหรือต้องการผลลัพธ์ในอนาคต แต่พระอรหันต์นั้นเต็มเปี่ยมสมบูรณ์แล้วจึงไม่ต้องหวังสิ่งใดอีก และท่านเป็น <em>"ผู้มีปัญญาแท้จริง"</em> รู้แจ้งสัจธรรมอย่างหมดจด ไม่ใช่เพียงแค่ใช้ตรรกะปัญญามาข่มทิฏฐิ (ความเห็นผิด) ไว้ชั่วคราว พระพุทธองค์จึงสรุปหลักการสำคัญว่า มุนีคือผู้ที่ไม่ติดข้องในกาม (กามภพ) และไม่ยึดติดในภพ (รูปภพ อรูปภพ) ใดๆ ทั้งสิ้น
+            </div>
+        </section>
+
+        <p class="quote">
+            “ผู้ไม่มีกิเลสเครื่องกังวล ไม่ติดข้องอยู่ในกามและภพ<br>
+            ผู้นั้นแล คือมุนีผู้มีความหลุดพ้นอันสูงสุด”
+        </p>
+    </div>
+</body>
+</html>
